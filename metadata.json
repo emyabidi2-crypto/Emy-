@@ -1,0 +1,6 @@
+{
+  "name": "قتبان وذي ريدان | Kataban & Dhu Raydan",
+  "description": "متجر إلكتروني فاخر متخصص في المنتجات اليمنية الأصيلة والنادرة: العسل الملكي، العقيق اليماني، والبخور العدني.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

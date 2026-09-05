@@ -1,0 +1,18 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#132E22"/>
+      <stop offset="50%" stopColor="#1C1C1C"/>
+      <stop offset="100%" stopColor="#1E3A8A"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#F3E5AB"/>
+      <stop offset="50%" stopColor="#D4AF37"/>
+      <stop offset="100%" stopColor="#8B5A2B"/>
+    </linearGradient>
+  </defs>
+  <circle cx="50" cy="50" r="48" fill="url(#bgGrad)" stroke="#D4AF37" stroke-width="3.5"/>
+  <ellipse cx="50" cy="50" rx="40" ry="15" transform="rotate(-30 50 50)" fill="none" stroke="#D4AF37" stroke-width="2.5" opacity="0.9"/>
+  <ellipse cx="50" cy="50" rx="40" ry="15" transform="rotate(30 50 50)" fill="none" stroke="#1E3A8A" stroke-width="2.5" opacity="0.9"/>
+  <path d="M35 70 C35 70, 25 50, 30 35 C33 25, 42 18, 55 15 C55 15, 62 25, 60 32 C58 40, 50 48, 50 48 C50 48, 65 42, 72 38 C75 36, 78 38, 76 42 C70 52, 55 68, 55 68 C55 68, 68 62, 75 58 C78 56, 82 60, 78 64 C65 76, 50 82, 45 85 C40 88, 35 70, 35 70 Z" fill="url(#goldGrad)"/>
+</svg>

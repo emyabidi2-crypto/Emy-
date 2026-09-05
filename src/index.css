@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #FAF6F0;
+    color: #1C1C1C;
+    font-family: 'Tajawal', sans-serif;
+  }
+  
+  h1, h2, h3, h4, .font-amiri {
+    font-family: 'Amiri', serif;
+  }
+}
+
+.bg-forest-green {
+  background-color: #132E22;
+}
+
+.text-forest-green {
+  color: #132E22;
+}
+
+.border-forest-green {
+  border-color: #132E22;
+}
+
+.bg-royal-blue {
+  background-color: #1E3A8A;
+}
+
+.text-royal-blue {
+  color: #1E3A8A;
+}
+
+.border-royal-blue {
+  border-color: #1E3A8A;
+}
+
+.bg-antique-gold {
+  background-color: #D4AF37;
+}
+
+.text-antique-gold {
+  color: #D4AF37;
+}
+
+.border-antique-gold {
+  border-color: #D4AF37;
+}
+
+.bg-terracotta {
+  background-color: #8B5A2B;
+}
+
+.text-terracotta {
+  color: #8B5A2B;
+}
+
+.border-terracotta {
+  border-color: #8B5A2B;
+}
+
+/* Custom subtle gold shimmer */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.gold-shimmer {
+  background: linear-gradient(90deg, #D4AF37 0%, #F3E5AB 50%, #D4AF37 100%);
+  background-size: 200% auto;
+  color: transparent;
+  -webkit-background-clip: text;
+  animation: shimmer 4s linear infinite;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF6F0;
+}
+::-webkit-scrollbar-thumb {
+  background: #132E22;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D4AF37;
+}
+
